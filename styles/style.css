@@ -23,6 +23,7 @@
     
 }
 
+
 /* header section starts */
 
 header{
@@ -73,12 +74,44 @@ header{
 }
 
 .banner-content{
+    /* border: 1px solid red; */
     max-width: 582px;
 }
 
 .banner-content .banner-title{
     font-size: 3.2rem;
+    margin-bottom: 0.3rem;
+    line-height: 4rem;
+    color: var(--title-color);
 }
+
+.banner-description{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.btn{
+    padding: 10px 24px;
+    background-color: var(--button-bg-color);
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 41px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #FFFFFF;
+    color: var(--button-bg-color);
+    border: 1px solid var(--button-bg-color);
+}
+
+
+
+
 
 
 /* banner section ends */
