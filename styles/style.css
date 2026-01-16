@@ -18,13 +18,12 @@
     --title-color: #3A3A3A;
     --button-color: #FFFFFF;
     --button-bg-color: #E02C6D;
+    --border-color: rgba(0, 0, 0, 1);
     --card-title-color: #18191F;
     --card-description-color: #787885;
     
 }
 
-
-/* header section starts */
 
 header{
     margin-top: 4rem;
@@ -100,7 +99,7 @@ header{
     border: none;
     border-radius: 41px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 .btn:hover{
@@ -109,9 +108,47 @@ header{
     border: 1px solid var(--button-bg-color);
 }
 
+.banner-image{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
+.banner-image img{
+    position: relative;
+    width: 100%;
+    transition: transform 1s ease;
+}
 
-
-
+.banner-image img:hover{
+    transform: translateY(-8px);
+}
 
 /* banner section ends */
+
+
+/* partner companies section starts */
+
+.partner-companies{
+    max-width: 1110px;
+    max-height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px auto 0;
+    gap: 60px;
+    padding: 36px 63px;
+    border-top: 1px solid #dde0e6;
+    border-bottom: 1px solid #dde0e6;
+}
+
+
+/* partner companies section ends */
+
+/* popular collection section starts */
+
+
+
+
+
+/* popular collection section ends */
