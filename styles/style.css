@@ -44,6 +44,10 @@ header{
     color: var(--title-color);
 }
 
+.nav-items a:hover{
+    color: var(--button-bg-color);
+}
+
 .nav-items{
     display: flex;
     gap: 30px;
