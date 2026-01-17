@@ -39,7 +39,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1188px;
+    width: 80%;
     margin: 0 auto;
     color: var(--title-color);
 }
@@ -301,3 +301,85 @@ header{
 }
 
 /* footer section ends */
+
+
+/* Responsiveness for mobile device */
+
+@media screen and (max-width:576px){
+    /* Navbar */
+    .navbar{
+        /* border: 1px solid red; */
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #banner-container{
+        /* width: 100%; */
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .banner-content{
+        padding: 14px auto 0px;
+    }
+
+    .banner-title{
+        font-size: 9rem;
+        color: var(--title-color);
+    }
+
+    .banner-image{
+        width: 80%;
+        text-align: center;
+        font-weight: bold;
+        margin: 0 auto;
+    }
+
+
+    .partner-companies{
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border: none;
+        margin-top: 1.25rem;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .popular-collection{
+        /* border: 1px solid red; */
+        padding-top: 5rem;
+    }
+
+    .population-collection-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+    }
+
+    .card{
+        width: 92%;
+    }
+
+    .card img{
+        padding: 14px auto 0px;
+    }
+    .featured-products{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .copyright{
+        line-height: 2rem;
+    }
+
+
+
+
+
+    
+
+}
+
