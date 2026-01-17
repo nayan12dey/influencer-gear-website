@@ -148,13 +148,13 @@ header{
 /* popular collection section starts */
 
 .popular-collection{
-    max-width: 1017px;
-    margin: 0 auto;
+    max-width: 1045px;
+    margin: 100px auto 0px;
     /* border: 1px solid red; */
 }
 
 .popular-collection-title{
-    margin: 100px auto 40px;
+    margin: 0px auto 40px;
     text-align: center;
     line-height: 4rem;
     color: var(--title-color);
@@ -171,10 +171,11 @@ header{
 }
 
 .card{
+    max-width: 100%;
     border-radius: 5px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     padding: 17px 14px;
-    transition: border 0.9s ease , transform 0.9s ease;
+    transition: border 0.1s ease-in-out , transform 0.9s ease-in-out;
 }
 
 .card-title{
@@ -212,8 +213,19 @@ header{
 }
 
 .card:hover{
-    border: 1px solid var(--button-bg-color);
-    transform: translateY(-5px);
+    border: 2px solid var(--button-bg-color);
+    transform: translateY(-6px);
+    box-shadow: 1px 8px 20px #5a152e82;
 }
+
+.see-more{
+    font-size: 1rem;
+    text-align:right;
+    color: var(--button-bg-color);
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+
 
 /* popular collection section ends */
