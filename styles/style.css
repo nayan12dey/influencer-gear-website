@@ -226,6 +226,41 @@ header{
     margin-top: 2rem;
 }
 
-
-
 /* popular collection section ends */
+
+
+/* featured products section starts */
+
+.featured-products{
+    /* border: 1px solid red;  */
+    max-width: 1045px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 0px;
+    gap: 4rem;
+}
+
+.featured-products-content{
+    max-width: 613px;
+    /* border: 1px solid blue; */
+}
+
+.featured-products-title{
+    font-size: 2rem;
+    margin: 0 auto;
+    color: #0A0826;
+}
+
+.featured-products-description{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    color: #6C6C6C;
+}
+
+#secondary-btn{
+    border-radius: 0;
+}
+
+/* featured products section ends */
